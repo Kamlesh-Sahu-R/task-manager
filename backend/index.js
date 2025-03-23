@@ -28,8 +28,8 @@ const mongoose = require("mongoose");
 
 const app = express();
 const PORT = 8082;
-const DB_URI = "mongodb://localhost:27017/task-manager";
-//const DB_URI = "mongodb+srv://kamleshsahur:AgZ4khdKvxWZHurP@tasks.v79mv.mongodb.net/?retryWrites=true&w=majority&appName=tasks";
+//const DB_URI = "mongodb://localhost:27017/task-manager";
+const DB_URI = "mongodb+srv://kamleshsahur:AgZ4khdKvxWZHurP@tasks.v79mv.mongodb.net/?retryWrites=true&w=majority&appName=tasks";
 
 mongoose
     .connect(DB_URI, {
